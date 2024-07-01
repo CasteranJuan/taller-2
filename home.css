@@ -1,0 +1,129 @@
+html, body{
+    margin:0;
+    padding: 0;
+}
+header{
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    align-items: center; /* Alineamos verticalmente al centro */
+    justify-content: space-between; /* Distribuimos los elementos de forma equitativa */
+    padding: 2px; /* Añadimos un poco de espacio alrededor de los elementos */  
+    margin: 0px;
+    
+}
+.logo-header{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+header h3 {
+margin-right: 144px; /* Margen entre h3 */
+color: white;
+font-weight: bold;
+font-size: 24px;
+}
+.secciones{
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+}
+.imagenes img{
+    margin-right: 68px;
+    width: auto;
+    height: 50px;
+}
+
+.portada img{
+    opacity: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    height: 680px; 
+}
+.Texto{
+font-weight:bolder;
+padding-top: -10px;
+margin-left: 238px;
+margin-block: 6px;
+}
+.titulo-superior{
+    margin-bottom: 3px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f32cc7;
+}
+.titulo{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 55px;
+    font-weight: bolder;
+    color: white;
+}
+.informacion{
+    padding-top: 13px;
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: bolder;
+    background: linear-gradient(90deg, rgba(146,7,123,0.8) 0%, rgba(73,5,62,0.8) 100%);
+    color: white;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+.Texto a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Texto h3{
+    pointer-events: none;
+}
+.section1 {
+    background-color: white;
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+}
+
+.caja {
+    text-align: center; /* Centra el texto dentro de la caja */
+    flex: 1; /* Hace que las cajas ocupen el mismo espacio */
+    max-width: 110px; /* Ancho máximo para las cajas */
+    margin-top: 100px;
+    margin-inline: 40px;
+}
+
+.caja img {
+    width: 60px; /* Ajusta la imagen para llenar su contenedor */
+    height: 50px; /* Ajusta la altura automáticamente */
+}
+
+.caja h3 {
+    margin-top: 10px; /* Espacio superior para separar la imagen del texto */
+}
+
+.section2 img{
+    padding-top: 100px;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+}
+footer{
+    left: 0;
+    right: 0;
+}
+.footer img{
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+
+    

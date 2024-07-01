@@ -1,0 +1,236 @@
+.info{
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    align-items: center; /* Alineamos verticalmente al centro */
+    justify-content: space-between; /* Distribuimos los elementos de forma equitativa */
+    padding: 2px; /* Añadimos un poco de espacio alrededor de los elementos */
+    padding-bottom: 50px;  
+}
+.opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.opciones img{
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+}
+.foto-noticia img{
+    width: 1300px;
+    height: auto;
+}
+.redes-sociales{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.redes-sociales img{
+    margin-top: -30px;
+    width: 30px;
+    height: 30px;
+    margin-inline: 20px;
+
+}
+.texto img{
+    margin-top: 60px;
+    width: 1300px;
+    height: auto;
+}
+
+.opiniones img{
+    margin-top: 250px;
+    width: 1300px;
+    height: auto;
+}
+footer{
+    padding: 0px;
+    left: 0%;
+    right: 0%;
+    background: rgb(73,5,62);
+    background: linear-gradient(0deg, rgba(73,5,62,1) 0%, rgba(187,17,159,1) 100%);
+}
+
+.comentarios{
+    color: white;
+    margin-left: 40px;
+    font-size: 36px;
+}
+
+.coment-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 40px;
+    background-color:#EBD9E8 ;
+    border-radius: 20px;
+}
+.coment-user h3{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-left: 30px;
+    color: #92077B;
+}
+.coment-user img{
+    width: 70px;
+    height: 70px;
+    margin-left: 40px;
+}
+.coment-titulo{
+    padding-top:20px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 130px;
+}
+.input{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+    margin-left: 20px;
+    width: 1080px;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    font-size: 20px;
+    outline: none;
+    background-color: #EBD9E8;
+    box-sizing: border-box;
+    max-width: 1080px;
+}
+::placeholder{
+    color: #92077B;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.enviar{
+    position: absolute;
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: 30px;
+    margin-left: 1154px;
+}
+.enviar img{
+    background-color: #58044a;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 10px;
+    padding-right: 14px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 25px;
+    height: 25px;
+}
+.coment-titulo h2{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.coment{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.caja img{
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+}
+.caja{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+}
+.txt h4, h5{
+    margin:4px;
+}
+.txt h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.txt h5{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+.caja h3{
+    background-color: white;
+    margin-right: 1020px;
+    padding: 5px;
+border-radius: 10px;
+}
+.responder{
+   font-size: 20px;
+   font-weight: lighter;
+   color: #92077B;
+}
+.cargarmascomentarios{
+    background-color: #B54F93;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: light;
+}
+.FootER{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 0px;
+
+}
+.FootER img{
+   
+    width: 800px;
+    height: 700px;
+}
+
+.texto-final{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 40px;
+    padding-bottom: 100px;
+}
+
+
+
+/*BOTON DE GUARDAR LA NOTICIA*/
+#imagen{
+    margin-top: -30px;
+    padding-left: 8px;
+    scale: 150%;
+}
