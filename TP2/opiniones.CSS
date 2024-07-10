@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+}
+.info{
+    margin-left: 150px;
+    margin-right: 200px;
+    
+}
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    align-items: center; /* Alineamos verticalmente al centro */
+    justify-content: space-between; /* Distribuimos los elementos de forma equitativa */
+    padding: 2px; /* Añadimos un poco de espacio alrededor de los elementos */
+    padding-bottom: 50px;  
+}
+.opciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.opciones a{
+    text-decoration: none;
+    color: black;
+}
+.opciones img{
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+}
+.infor{
+    margin-left: 90px;
+    margin-right: 200px;
+}
+
+/*TITULO*/
+.titulo{
+    margin-top: 30px;
+    background-color: #9B0269;
+    width: 100%;
+}
+.titulo h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+footer{
+    left: 0;
+    right: 0;
+}
+.footer img{
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+
+}

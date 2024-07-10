@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./noticia.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+</head>
+<body>
+<section class="info">
+
+    <header>
+        <img class="logo-header" src="./img Home/logo.png" alt="logo.png">
+        <div class="opciones">
+            <h2><a href="./home.html">Home</h3></a>
+                <img src="./img Home/user.png" alt="user.png">
+            </div>
+        </header>
+         <section class="Noticia">
+            <h3>Ciencia en Acción</h3>
+            <h1>REDISEÑAN LA FOTOSINTESIS PARA MEJORAR<br>EL RENDIMIENTO DE LOS CULTIVOS</h1>
+            <p>La fotosíntesis es el proceso fundamental mediante el cual las plantas transforman la energía lumínica del sol en 
+                energía química en forma de moléculas de carbono. Este proceso es la base fundamental de la pirámide trófica, 
+                haciendo que la vida en nuestro planeta sea posible.</p>
+            <img src="./img Noticia/Img-noticia.png" alt="">
+
+         </section>
+            <div class="redes-sociales">
+                <img src="./img Noticia/redes sociales/Whatsapp.png" alt="whatsapp.png">
+                <img src="./img Noticia/redes sociales/facebook.png" alt="facebook.png">
+                <img src="./img Noticia/redes sociales/instagram.png" alt="instagram.png">
+                <img src="./img Noticia/redes sociales/X.png" alt="X.png">
+                    <svg onclick="changeColor()" id="imagen" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M7.833 2c-.507 0-.98.216-1.318.576A1.92 1.92 0 0 0 6 3.89V21a1 1 0 0 0 1.625.78L12 18.28l4.375 3.5A1 1 0 0 0 18 21V3.889c0-.481-.178-.954-.515-1.313A1.808 1.808 0 0 0 16.167 2H7.833Z"/>
+                    </svg>
+                </div>
+            </section>
+        <section class="informacion">
+            <p>
+                La fotosíntesis está directamente relacionada con el crecimiento vegetal y, en particular en términos agronómicos, con el 
+                rendimiento de los cultivos.  En este marco investigadores de la Universidad Nacional de La Plata y de la Universidad de 
+                Manchester del Reino Unido, desarrollan una estrategia para incrementar la tolerancia al estrés en plantas rediseñando la 
+                fotosíntesis.
+            </p>
+            <p>
+                En las últimas décadas, el concepto de ‘rediseñar’ el proceso fotosintético ganó especial atención. Esto involucra manipular los 
+                componentes moleculares y fisiológicos de la fotosíntesis con el objetivo de: mejorar la captación de luz, maximizar su 
+                conversión energética y/o incrementar su fijación de carbono. 
+            </p>  
+            <p> 
+                La oxidasa terminal plastídica (PTOX) es una proteína capaz de tomar electrones de la cadena de transporte de electrones 
+                fotosintético en las membranas tilacoidales de los cloroplastos. En particular, debido a su capacidad oxidante, disminuye la 
+                sobre-reducción de la cadena de transporte y protege a los fotosistemas de la fotoinhibición, es decir del daño generado por 
+                condiciones de alta presión de excitación lumínica. PTOX tiene el potencial de incrementar la tolerancia al estrés en plantas, 
+                pero aún se desconoce su mecanismo de activación, limitando su uso en el mejoramiento vegetal.
+            </p>
+            <p> 
+                Recientemente, en un artículo publicado en la prestigiosa revista Nature Communications, el grupo liderado por el profesor Giles 
+                Johnson de la Universidad de Manchester, demostró que alteraciones en las membranas tilacoidales de los cloroplastos durante 
+                la aclimatación a estreses ambientales, son suficientes para inducir PTOX y su rol fotoprotector. En particular, utilizando líneas 
+                mutantes de la planta modelo Arabidopsis thaliana, los investigadores demostraron la importancia de la localización 
+                cloroplástica de PTOX en este proceso de activación.  
+            </p>
+        <section class="etiquetas">
+            <h2>ETIQUETAS:</h2>
+            <div class="temas">
+                <H2>AMBIENTE</H2>
+                <H2>CULTIVOS</H2>
+                <H2>SALUD</H2>
+            </div>
+        </section>
+        <section class="opiniones">
+            <h1>Opiniones de nuestros expertos</h1>
+            <img src="./img Noticia/OPINIONES.png" alt="opiniones">
+            <div class="Boton-opinion">
+                <h2><a href="./opiniones.Html">Mas opiniones</a></h2>
+            </div>
+        </section>
+    </section>
+    <section><!-- caja de comentarios -->
+        <div class="tab-container">
+            <div class="tabs">
+                <button class="tab active" onclick="openTab(event, 'comentario')">Comentario</button>
+                <button class="tab" onclick="openTab(event, 'preguntas')">Preguntas</button>
+            </div>
+            <div class="tab-content">
+                <div id="comentario" class="tab-pane active">
+                    <div class="comment-form">
+                        <img src="./img Home/user.png" alt="Foto de perfil" class="profile-pic">
+                        <textarea placeholder="Escribe tu comentario aquí..."></textarea>
+                        <button>Enviar</button>
+                    </div>
+                    <div class="comment">
+                        <img src="./img Noticia/user-1.png" alt="Foto de perfil" class="profile">
+                        <div class="comment-content">
+                            <p class="username">Abril</p>
+                            <p class="text">"Interesante que hayan utilizado Arabidopsis thaliana para sus experimentos. Es una planta modelo muy útil en la  investigación genética. Espero que pronto podamos ver aplicaciones prácticas de estos hallazgos."</p>
+                            <div class="comment-actions">
+                                <button><h3>Responder</h3></button>
+                                <button><img src="./img Noticia/like.png" alt="Me gusta"></button>
+                                <button><img src="./img Noticia/dislike.png" alt="No me gusta"></button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Puedes agregar más comentarios aquí -->
+                </div>
+                <div id="preguntas" class="tab-pane">
+                    <div class="comment-form">
+                        <img src="./img Home/user.png" alt="Foto de perfil" class="profile-pic">
+                        <textarea placeholder="Escribe tu pregunta aquí..."></textarea>
+                        <button>Enviar</button>
+                    </div>
+                    <div class="comment">
+                        <img src="./img Noticia/user-2.png" alt="Foto de perfil" class="profile">
+                        <div class="comment-content">
+                            <p class="username">Graciela</p>
+                            <p class="text">“¿Esto podría ser un gran avance para la agricultura? Si logramos plantas más resistentes, ¿podríamos reducir la dependencia de pesticidas y otros químicos?"</p>
+                            <div class="comment-actions">
+                                <button><h3>Responder</h3></button>
+                                <button><img src="./img Noticia/like.png" alt="Me gusta"></button>
+                                <button><img src="./img Noticia/dislike.png" alt="No me gusta"></button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Puedes agregar más preguntas aquí -->
+                </div>
+            </div>
+        </div>
+    </section>
+                  
+<footer>
+    <img src="./img Noticia/footer.png" alt="">
+</footer>
+    <script>
+        function openTab(evt, tabName) {
+            var tabPanes = document.getElementsByClassName("tab-pane");
+            for (var i = 0; i < tabPanes.length; i++) {
+                tabPanes[i].style.display = "none";
+            }
+
+            var tabs = document.getElementsByClassName("tab");
+            for (var i = 0; i < tabs.length; i++) {
+                tabs[i].className = tabs[i].className.replace(" active", "");
+            }
+
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        document.getElementById("comentario").style.display = "block";
+    </script>
+    <script>
+        let guardar = 0
+        function changeColor() {
+            if (guardar === 0){    
+                document.getElementById("imagen").style.fill = "#F32CC7";
+                guardar = 1
+            } else if(guardar === 1){
+                document.getElementById("imagen").style.fill = "black";
+                guardar = 0
+            }
+        }
+    </script>
+</body>
+</html>
